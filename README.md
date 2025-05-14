@@ -8,6 +8,10 @@
 - **Bonus Enhancements** such as CAPTCHA detection, session management, dynamic content waiting, and graceful error recovery.
 - **Proxy & Extension Support** to allow routing traffic through a proxy and loading custom Chrome extensions.
 
+## 🎥 Demo Video
+
+[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/25a5fe839f2d4aaea940ee3ba073f21d-with-play.gif)](https://www.loom.com/share/25a5fe839f2d4aaea940ee3ba073f21d?sid=3db1786c-ca40-4721-8b8d-345ad7841fc5)
+
 ## Table of Contents
 
 - [Overview](#overview)
