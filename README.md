@@ -10,7 +10,8 @@
 
 ## 📽️ Demo Video
 
-[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/25a5fe839f2d4aaea940ee3ba073f21d-with-play.gif)](https://www.loom.com/share/25a5fe839f2d4aaea940ee3ba073f21d?sid=3db1786c-ca40-4721-8b8d-345ad7841fc5)
+[👉 Click here to watch the demo video](https://www.loom.com/share/25a5fe839f2d4aaea940ee3ba073f21d?sid=3db1786c-ca40-4721-8b8d-345ad7841fc5)
+
 
 ## Table of Contents
 
