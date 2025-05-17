@@ -3,7 +3,6 @@
 
 import asyncio
 import os
-import random
 import subprocess
 import time
 import sys
@@ -12,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 import json
+import secrets
 
 load_dotenv()
 
@@ -104,7 +104,7 @@ class BrowserAgent:
         self.browser = await self.playwright.chromium.launch(
             headless=False,
             args=launch_args,
-            slow_mo=random.randint(100, 500)
+            slow_mo=secrets.SystemRandom().randint(100, 500)
         )
         self.page = await self.browser.new_page()
         await self.page.set_viewport_size({"width": 1366, "height": 768})
