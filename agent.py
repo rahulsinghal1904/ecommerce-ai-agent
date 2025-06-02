@@ -435,7 +435,7 @@ class WindowsLinuxNativeAgent:
         self.chrome_process = subprocess.Popen(cmd)
         time.sleep(5)
         try:
-            resp = requests.get(f"http://127.0.0.1:{self.debug_port}/json")
+            resp = requests.get(f"http://127.0.0.1:{self.debug_port}/json", timeout=60)
             targets = resp.json()
             if targets:
                 ws_url = targets[0].get("webSocketDebuggerUrl", None)
